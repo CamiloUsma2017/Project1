@@ -1,0 +1,59 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Unbounded', cursive;
+  font-size: 22px;
+  padding: 10px;
+}
+/* PROJECT1 */
+.titlePro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: whitesmoke;
+  box-shadow: 1px 1px 18px rgb(248, 244, 244);
+}
+
+.quoteBox {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 1px 1px 18px rgb(248, 244, 244);
+}
+
+.quoteBox__author {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.quoteBox__icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 55px;
+}
+
+.quoteBox__button {
+  font-size: 35px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 auto;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+
+.quoteBox__button:hover {
+  transform: scale(1.05);
+}
